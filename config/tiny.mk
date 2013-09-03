@@ -146,7 +146,7 @@ PRODUCT_COPY_FILES += \
 # T-Mobile theme engine
 include vendor/cm/config/themes_common.mk
 
-include frameworks/base/data/sounds/OldAudio.mk
+include frameworks/base/data/sounds/OriginalAudio.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
