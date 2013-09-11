@@ -11,7 +11,6 @@ PRODUCT_PACKAGES += \
     libcyanogen-dsp \
     audio_effects.conf \
     Apollo \
-    CMFileManager \
     Basic \
     LockClock
 
@@ -19,10 +18,7 @@ PRODUCT_PACKAGES += \
     CellBroadcastReceiver
 
 PRODUCT_PACKAGES += \
-    Development \
-    Email2 \
-    Exchange2 \
-    SoundRecorder
+    Development
 
 
 $(call inherit-product, vendor/cm/config/tiny.mk)
