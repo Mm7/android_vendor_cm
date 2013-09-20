@@ -152,6 +152,7 @@ include frameworks/base/data/sounds/OriginalAudio.mk
 PRODUCT_PACKAGES += \
     LatinIME \
     Superuser \
+		Focal \
     su
 
 # Optional CM packages
@@ -162,9 +163,7 @@ PRODUCT_PACKAGES += \
 # Custom CM packages
 PRODUCT_PACKAGES += \
     Trebuchet \
-    libcyanogen-dsp \
     audio_effects.conf \
-    CMFileManager \
     HwaSettings \
     PermissionsManager
 

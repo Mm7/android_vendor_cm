@@ -7,18 +7,16 @@ PRODUCT_COPY_FILES +=  \
 
 PRODUCT_PACKAGES += \
     Trebuchet \
-    DSPManager \
-    libcyanogen-dsp \
     audio_effects.conf \
     Apollo \
-    Basic \
-    LockClock
+    Basic 
+#    LockClock
 
-PRODUCT_PACKAGES += \
-    CellBroadcastReceiver
+#PRODUCT_PACKAGES += \
+#    CellBroadcastReceiver
 
-PRODUCT_PACKAGES += \
-    Development
+#PRODUCT_PACKAGES += \
+#    Development
 
 
 $(call inherit-product, vendor/cm/config/tiny.mk)
